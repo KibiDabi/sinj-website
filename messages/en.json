@@ -1,0 +1,18 @@
+{
+    "slug": "serb-rebellion",
+    "title": "Serb rebellion",
+    "text": "Sinj, 7 April 1990 – The Assembly of the Alkar Knights' Society today...",
+
+    "LocaleSwitcher": {
+    "label": "Language",
+    "locale": {
+      "hr": "Croatian",
+      "en": "English",
+      "de": "German"
+    }
+  },
+
+  "navbar": {
+        "title": "Homeland War in the Cetina Region"
+    }
+}

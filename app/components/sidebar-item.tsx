@@ -27,7 +27,7 @@ export default function SidebarItem({ slug, title }: SidebarItemProps) {
 
   return (
     <SidebarMenuButton asChild isActive={currentSlug === slug} size='lg'>
-      <button onClick={handleClick} className="font-medium 2xl:text-4xl">
+      <button onClick={handleClick} className="font-bold 2xl:text-5xl">
         {title}
       </button>
     </SidebarMenuButton>

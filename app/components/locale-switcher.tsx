@@ -13,11 +13,16 @@ export default function LocaleSwitcher() {
   const locale = useLocale();
 
   return (
-    <LocaleSwitcherSelect defaultValue={locale} label={t("label")}>
+    <LocaleSwitcherSelect defaultValue={locale} label={t("label")} >
       {routing.locales.map((cur) => (
         <option key={cur} value={cur}>
-          <span className="flex items-center gap-2 2xl:text-3xl 2xl:gap-4">
-          <span className={`fi fi-${flagClassMap[cur]} fis`} />
+          <span className="flex items-center"
+            style={{
+              fontSize: "clamp(1rem, 1.2vw, 2.5rem)", // scales option text
+              gap: "clamp(0.25rem, 0.5vw, 1rem)", // scales spacing between flag and text
+            }}>
+          <span className={`fi fi-${flagClassMap[cur]} fis`}
+              style={{ fontSize: "clamp(1rem, 1.2w, 2.5rem)" }} />
           {t(`locale.${cur}`)}
           </span>
         </option>

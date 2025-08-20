@@ -17,14 +17,14 @@ export default function HomePage({
     <SidebarProvider
       style={
         {
-          "--sidebar-width": "64rem",
+          "--sidebar-width": "clamp(25rem, 30vw, 41rem)",
         } as React.CSSProperties
       }
     >
       <div className="flex h-full w-full">
         <SidebarInset className="bg-transparent">
           <div
-            className="flex  w-full pt-10 2xl:pt-18 "
+            className="flex  w-full pt-10 2xl:pt-18 h-[calc(100vh-56px)]"
             style={{ height: "calc(100vh - 56px)" }}
           >
             <AppSidebar
@@ -33,7 +33,9 @@ export default function HomePage({
               style={{ position: "relative" }}
             />
             <Suspense>
-              <ContentSwitcher locale={locale} />
+              <div className="flex-1 flex flex-col h-full">
+          <ContentSwitcher locale={locale} />
+        </div>
             </Suspense>
           </div>
         </SidebarInset>

@@ -21,7 +21,7 @@ export function AppSidebar({locale, ...props }: React.ComponentProps<typeof Side
       <SidebarHeader>
         <SidebarMenu>
           <SidebarMenuItem>
-            <SidebarMenuButton size='lg' asChild>
+            <SidebarMenuButton size='lg' asChild className="text-lg md:text-xl 2xl:text-3xl">
               <a href="#">
                 <SidebarReset />
               </a>
@@ -31,7 +31,7 @@ export function AppSidebar({locale, ...props }: React.ComponentProps<typeof Side
       </SidebarHeader>
       <SidebarContent>
         <SidebarGroup>
-          <SidebarMenu className=" 2xl:gap-6">
+          <SidebarMenu className="gap-1 md:gap-1 xl:gap-1 2xl:gap-8">
             {chapters.map((chapter) => (
               <SidebarMenuItem key={chapter.slug}>
                 <SidebarItem slug={chapter.slug} title={chapter.title} />

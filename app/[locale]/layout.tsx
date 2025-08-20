@@ -56,7 +56,7 @@ export default async function LocaleLayout({ children, params }: Props) {
           <Navbar />
           <div className="flex-1 flex overflow-hidden">
           <SidebarProvider>
-            <main className="flex flex-1 min-h-[calc(100vh-4rem)] 2xl:min-h-[calc(100vh-5rem)] bg-custom-image bg-cover bg-center overflow-auto">
+            <main className="flex flex-1 min-h-[calc(100vh-4rem)]  bg-custom-image bg-cover bg-center overflow-auto">
               {children}
             </main>
           </SidebarProvider>

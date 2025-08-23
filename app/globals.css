@@ -117,8 +117,8 @@
 }
 
 .bg-custom-image {
-  background-image: url('/grb_realan.png');
-  background-size: 4500px, 300px;
+  background-image: url('/hrvatski_grb.png');
+  background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
   background-color: #971C1F;

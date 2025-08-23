@@ -18,14 +18,15 @@ export default function HomePage({
       style={
         {
           "--sidebar-width": "clamp(25rem, 30vw, 41rem)",
+          "--navbar-height": "58px",
         } as React.CSSProperties
       }
     >
       <div className="flex h-full w-full">
         <SidebarInset className="bg-transparent">
           <div
-            className="flex  w-full pt-10 2xl:pt-18 h-[calc(100vh-56px)]"
-            style={{ height: "calc(100vh - 56px)" }}
+            className="flex gap-14 w-full  h-[calc(100vh-var(--navbar-height))] mt-[var(--navbar-height)]"
+            
           >
             <AppSidebar
               locale={locale}
@@ -33,9 +34,9 @@ export default function HomePage({
               style={{ position: "relative" }}
             />
             <Suspense>
-              <div className="flex-1 flex flex-col h-full">
-          <ContentSwitcher locale={locale} />
-        </div>
+              
+          <ContentSwitcher locale={locale} className='px-8'/>
+        
             </Suspense>
           </div>
         </SidebarInset>

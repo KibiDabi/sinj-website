@@ -1,6 +1,7 @@
 "use client";
 
 import { ScrollArea } from "@/components/ui/scroll-area";
+import { cn } from "@/lib/utils";
 import Image from "next/image";
 // import { useSidebarSelection } from "@/context/sidebar-context";
 import { useSearchParams } from "next/navigation";
@@ -18,7 +19,7 @@ type Chapter = {
   content: ChapterContent[];
 };
 
-export default function ContentSwitcher({ locale }: { locale: string }) {
+export default function ContentSwitcher({ locale, className }: { locale: string, className: string }) {
   const searchParams = useSearchParams();
   const slug = searchParams.get("slug");
 
@@ -39,11 +40,8 @@ export default function ContentSwitcher({ locale }: { locale: string }) {
 
   return (
     <div
-      className="flex-1 flex flex-col overflow-hidden"
-      style={{
-        padding: "clamp(0.5rem, 1vw, 2rem)", // replaces `p-2 2xl:p-4`
-        paddingTop: "clamp(0.5rem, 1vw, rem)", // replaces `2xl:pt-12`
-      }}
+      className={cn("flex-1 flex flex-col overflow-hidden", className)}
+      
     >
       <div className="w-full max-w-[2400px] mx-auto flex-1 flex overflow-hidden">
         <div
@@ -83,7 +81,7 @@ export default function ContentSwitcher({ locale }: { locale: string }) {
                         key={idx}
                         className="font-semibold tracking-tight"
                         style={{
-                          fontSize: "clamp(1.5rem, 1.8vw + 1rem, 3.75rem)", // replaces `text-3xl sm:text-3xl 2xl:text-6xl`
+                          fontSize: "clamp(1.5rem, 1.4vw + 1rem, 3.75rem)", // replaces `text-3xl sm:text-3xl 2xl:text-6xl`
                           marginTop: "clamp(1rem, 2vw, 5rem)", // replaces `mt-22`
                           marginBottom: "clamp(1rem, 2vw, 5rem)", // replaces `mb-20`
                         }}
@@ -120,7 +118,7 @@ export default function ContentSwitcher({ locale }: { locale: string }) {
                       <Image
                         src={block.src}
                         alt={block.alt || ""}
-                        className="max-w-full h-auto rounded-lg shadow"
+                        className="max-w-full h-auto rounded-lg"
                         width={800}
                         height={600}
                       />

@@ -19,6 +19,7 @@ export default function Navbar() {
       <div className="relative flex items-center justify-between w-full"
         style={{
           height: "clamp(3rem, 5vw, 6rem)", // navbar height scales with viewport
+           paddingInline: "clamp(1rem, 2vw, 3rem)", // consistent horizontal padding
         }}>
         <div className="absolute inset-0 flex items-center justify-center pointer-events-none">
           <NavigationMenu>

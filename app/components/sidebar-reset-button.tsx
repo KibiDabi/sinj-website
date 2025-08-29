@@ -19,14 +19,14 @@ export default function SidebarReset() {
 
   return (
     <>
-      <div className="bg-sidebar-foreground text-sidebar-primary-foreground flex aspect-square size-14 items-center justify-center rounded-lg">
-        <GalleryVerticalEnd className="size-5" />
+      <div className="bg-sidebar-foreground text-sidebar-primary-foreground flex aspect-square size-14 2xl:size-10 items-center justify-center rounded-lg">
+        <GalleryVerticalEnd className="size-5 2xl:size-4" />
       </div>
       <div
         onClick={handleReset}
         className="flex flex-col gap-0.5 leading-none"
       >
-        <span className="font-medium text-muted-foreground 2xl:text-5xl">Sinj Homepage</span>
+        <span className="font-medium text-muted-foreground text-lg sm:text-base md:text-xl lg:text-3xl 2xl:text-2xl">Sinj Homepage</span>
       </div>
     </>
   );

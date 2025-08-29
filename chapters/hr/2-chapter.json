@@ -3,8 +3,11 @@
   "title": "Oružana pobuna srba",
   "content": [
     {
-      "type": "paragraph",
-      "text": "17. kolovoza 1990. u okolici Knina počela je otvorena oružana pobuna Srba poznata pod imenom Balvan revolucija."
+      "type": "list",
+      "ordered": true,
+      "items": [
+        "kolovoza 1990. u okolici Knina počela je otvorena oružana pobuna Srba poznata pod imenom Balvan revolucija."
+      ]
     },
     {
       "type": "paragraph",

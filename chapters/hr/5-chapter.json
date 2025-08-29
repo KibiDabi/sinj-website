@@ -3,8 +3,11 @@
   "title": "Oružani napad na cetinski kraj",
   "content": [
     {
-      "type": "paragraph",
-      "text": "25. kolovoza 1991. godine u ranim jutarnjim satima počeo je združeni napad JNA i srpskih paravojnih snaga na Kijevo i Vrlički kraj."
+      "type": "list",
+      "ordered": true,
+      "items": [
+        "kolovoza 1991. godine u ranim jutarnjim satima počeo je združeni napad JNA i srpskih paravojnih snaga na Kijevo i Vrlički kraj."
+      ]
     },
     {
       "type": "paragraph",

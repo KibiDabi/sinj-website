@@ -5,8 +5,8 @@ import Navbar from "../components/Navbar";
 import { getTranslations, setRequestLocale } from "next-intl/server";
 import { SidebarProvider } from "@/components/ui/sidebar";
 import { Geist, Geist_Mono } from "next/font/google";
-import 'flag-icons/css/flag-icons.min.css';
-import '@/app/globals.css'
+import "flag-icons/css/flag-icons.min.css";
+import "@/app/globals.css";
 
 type Props = {
   children: React.ReactNode;
@@ -22,8 +22,6 @@ const geistMono = Geist_Mono({
   variable: "--font-geist-mono",
   subsets: ["latin"],
 });
-
-
 
 export function generateStaticParams() {
   return routing.locales.map((locale) => ({ locale }));
@@ -50,17 +48,25 @@ export default async function LocaleLayout({ children, params }: Props) {
 
   return (
     <html lang={locale}>
-      <body className={` ${geistSans.variable} ${geistMono.variable} antialiased h-screen overflow-hidden`}>
+      <body
+        className={` ${geistSans.variable} ${geistMono.variable} antialiased h-screen overflow-hidden`}
+      >
         <NextIntlClientProvider>
-          <div className="flex flex-col fixed inset-0">
-          <Navbar />
-          <div className="flex-1 flex overflow-hidden">
-          <SidebarProvider>
-            <main className="flex flex-1 min-h-[calc(100vh-4rem)]  bg-custom-image bg-cover bg-center overflow-auto">
-              {children}
-            </main>
-          </SidebarProvider>
-          </div>
+          <div className="flex flex-col fixed inset-0 home-shell">
+            <Navbar />
+            <div className="flex-1 flex overflow-hidden min-h-0">
+              <SidebarProvider
+                style={
+                  {
+                    "--sidebar-width": "28rem",
+                  } as React.CSSProperties
+                }
+              >
+                <main className="flex flex-1 bg-custom-image bg-cover bg-center overflow-hidden">
+                  {children}
+                </main>
+              </SidebarProvider>
+            </div>
           </div>
         </NextIntlClientProvider>
       </body>

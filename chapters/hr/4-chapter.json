@@ -145,8 +145,11 @@
       "text": "Dana 1. prosinca 1992. 4. brigada ZNG-a prelazi u Gradijske brigade te se tako i 2. bojna 4. brigade ZNG-a spaja sa Samostalnom  satnijom (SHUS-a) i formiraju 1. bojnu 4. gardijske brigade."
     },
     {
-      "type": "paragraph",
-      "text": "2. bojna 4. brigade ZNG-a ratovala je pod imenom “Hrvatski anđeli“ i zasigurno ostavila neizbrisiv trag u povijesti obrane Dalmacije, osobito njenog juga."
+      "type": "list",
+      "ordered": true,
+      "items": [
+        "bojna 4. brigade ZNG-a ratovala je pod imenom “Hrvatski anđeli“ i zasigurno ostavila neizbrisiv trag u povijesti obrane Dalmacije, osobito njenog juga."
+      ]
     },
     {
       "type": "image",

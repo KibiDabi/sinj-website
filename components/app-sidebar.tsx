@@ -17,11 +17,11 @@ export function AppSidebar({locale, ...props }: React.ComponentProps<typeof Side
   const chapters = getAllChaptersMeta(locale);
 
   return (
-    <Sidebar variant="floating" {...props}>
+    <Sidebar variant="floating" {...props} className="w-[var(--sidebar-width)]">
       <SidebarHeader>
         <SidebarMenu>
           <SidebarMenuItem>
-            <SidebarMenuButton size='lg' asChild className="text-lg md:text-xl 2xl:text-3xl">
+            <SidebarMenuButton size='lg' asChild className="text-base sm:text-lg md:text-xl 2xl:text-3xl">
               <a href="#">
                 <SidebarReset />
               </a>
@@ -31,7 +31,7 @@ export function AppSidebar({locale, ...props }: React.ComponentProps<typeof Side
       </SidebarHeader>
       <SidebarContent>
         <SidebarGroup>
-          <SidebarMenu className="gap-1 md:gap-1 xl:gap-1 2xl:gap-8">
+          <SidebarMenu className="gap-1 md:gap-1 xl:gap-1 2xl:gap-2 xl:pb-36 2xl:pb-28">
             {chapters.map((chapter) => (
               <SidebarMenuItem key={chapter.slug}>
                 <SidebarItem slug={chapter.slug} title={chapter.title} />

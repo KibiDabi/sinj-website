@@ -16,7 +16,23 @@
     },
     {
       "type": "paragraph",
-      "text": "Na temelju stanja u Republici Hrvatskoj, Predsjednik RH dr. Franjo Tuđman 18. kolovoza 1990. donio je odluku o uvođenju mjera pripravnosti na području RH.\r\\nU gradu Zagrebu i svim Općinama na području Republike Hrvatske, uvode se mjere pripravnosti \r\\nI. stupnja i to: \r\\n1.\tmjera: ažurirati sve dokumente iz planova za izvanredne prilike i pripravnosti;\r\\n2.\tmjera: uvesti dežurstva u općinskim (gradskim) organima vlasti;\r\\n3.\tmjera: pojačati sve mjere društvene samozaštite, posebno mjere sigurnosti i zaštite tajnih podataka, fizičkog osiguranja vitalnih objekata, posebno onih važnih za život, sigurnost i obranu Republike;\r\\n4.\tmjera: aktivirati do 50 posto ratne organizacije (rezervnog sastava) organa unutrašnjih poslova;\r\\n5.\tmjera: osigurati neprekidan rad Centara za obavještavanje;\r\\n6.\tmjera: u kriptografskim organima (centrima i stanicama) uvesti stalno dežurstvo i osigurati kripto zaštitu informacija."
+      "text": "Na temelju stanja u Republici Hrvatskoj, Predsjednik RH dr. Franjo Tuđman 18. kolovoza 1990. donio je odluku o uvođenju mjera pripravnosti na području RH."
+    },
+    {
+      "type": "paragraph",
+      "text": "U gradu Zagrebu i svim Općinama na području Republike Hrvatske, uvode se mjere pripravnosti I. stupnja i to:"
+    },
+    {
+      "type": "list",
+      "ordered": true,
+      "items": [
+        "mjera: ažurirati sve dokumente iz planova za izvanredne prilike i pripravnosti;",
+        "mjera: uvesti dežurstva u općinskim (gradskim) organima vlasti;",
+        "mjera: pojačati sve mjere društvene samozaštite, posebno mjere sigurnosti i zaštite tajnih podataka, fizičkog osiguranja vitalnih objekata, posebno onih važnih za život, sigurnost i obranu Republike;",
+        "mjera: aktivirati do 50 posto ratne organizacije (rezervnog sastava) organa unutrašnjih poslova;",
+        "mjera: osigurati neprekidan rad Centara za obavještavanje;",
+        "mjera: u kriptografskim organima (centrima i stanicama) uvesti stalno dežurstvo i osigurati kripto zaštitu informacija."
+      ]
     },
     {
       "type": "paragraph",
@@ -24,7 +40,7 @@
     },
     {
       "type": "paragraph",
-      "text": "PREDSJEDNIK \r\\nDR FRANJO TUDJMAN"
+      "text": "PREDSJEDNIK DR FRANJO TUDJMAN"
     },
     {
       "type": "paragraph",

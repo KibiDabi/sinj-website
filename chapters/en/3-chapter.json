@@ -16,11 +16,23 @@
     },
     {
       "type": "paragraph",
-      "text": "Based on the situation in the Republic of Croatia, the President of the Republic of Croatia, Dr. Franjo Tuđman, on August 18, 1990, made a decision to introduce readiness measures in the territory of the Republic of Croatia.\r\\nIn the city of Zagreb and all municipalities within the territory of the Republic of Croatia, readiness measures of Level I are introduced as follows:"
+      "text": "Based on the situation in the Republic of Croatia, the President of the Republic of Croatia, Dr. Franjo Tuđman, on August 18, 1990, made a decision to introduce readiness measures in the territory of the Republic of Croatia."
     },
     {
       "type": "paragraph",
-      "text": "1.\tUpdate all documents from plans for emergencies and readiness;\r\\n2.\tIntroduce duty shifts in municipal (city) authorities;\r\\n3.\tStrengthen all measures of social self-protection, especially security measures and the protection of classified data, physical security of vital facilities, especially those important for the life, security, and defense of the Republic;\r\\n4.\tActivate up to 50 percent of the wartime organization (reserve staff) of internal affairs bodies;\r\\n5.\tEnsure uninterrupted operation of the Information Centers;\r\\n6.\tIntroduce permanent duty shifts in cryptographic bodies (centers and stations) and ensure crypto protection of information."
+      "text": "In the city of Zagreb and all municipalities within the territory of the Republic of Croatia, readiness measures of Level I are introduced as follows:"
+    },
+    {
+      "type": "list",
+      "ordered": true,
+      "items": [
+        "Update all documents from plans for emergencies and readiness;",
+        "Introduce duty shifts in municipal (city) authorities;",
+        "Strengthen all measures of social self-protection, especially security measures and the protection of classified data, physical security of vital facilities, especially those important for the life, security, and defense of the Republic;",
+        "Activate up to 50 percent of the wartime organization (reserve staff) of internal affairs bodies;",
+        "Ensure uninterrupted operation of the Information Centers;",
+        "Introduce permanent duty shifts in cryptographic bodies (centers and stations) and ensure crypto protection of information."
+      ]
     },
     {
       "type": "paragraph",
@@ -28,7 +40,7 @@
     },
     {
       "type": "paragraph",
-      "text": "PRESIDENT\r\\nDR. FRANJO TUĐMAN"
+      "text": "PRESIDENT DR. FRANJO TUĐMAN"
     },
     {
       "type": "paragraph",

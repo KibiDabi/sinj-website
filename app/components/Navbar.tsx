@@ -1,4 +1,4 @@
-'use client';
+"use client";
 
 import {
   NavigationMenu,
@@ -11,28 +11,28 @@ import LocaleSwitcher from "./locale-switcher";
 import { useTranslations } from "next-intl";
 
 export default function Navbar() {
-
-  const t = useTranslations('navbar');
+  const t = useTranslations("navbar");
 
   return (
     <nav className="sticky top-0 z-50 w-full border-b border-b-black bg-black text-white">
-      <div className="relative flex items-center justify-between w-full"
-        style={{
-          height: "clamp(3rem, 5vw, 6rem)", // navbar height scales with viewport
-           paddingInline: "clamp(1rem, 2vw, 3rem)", // consistent horizontal padding
-        }}>
+      <div
+        className="relative flex items-center justify-between w-full
+                xl:h-[5.5rem] xl:px-12
+                2xl:h-[3.5rem] 2xl:px-6"
+      >
         <div className="absolute inset-0 flex items-center justify-center pointer-events-none">
           <NavigationMenu>
             <NavigationMenuList>
               <NavigationMenuItem>
                 <NavigationMenuLink asChild>
                   <Link href="#">
-                    <h1 className="font-medium"
-                      style={{
-                        fontSize: "clamp(1rem, 2vw, 2rem)", // responsive title
-                      }}>
+                    <h1
+                      className="font-medium
+                             xl:text-3xl
+                             2xl:text-xl"
+                    >
                       {" "}
-                      {t('title')}
+                      {t("title")}
                     </h1>
                   </Link>
                 </NavigationMenuLink>
@@ -40,11 +40,12 @@ export default function Navbar() {
             </NavigationMenuList>
           </NavigationMenu>
         </div>
-        <div className="absolute right-8"
-          style={{
-            right: "clamp(2rem, 5vw, 9rem)", // responsive right margin
-          }}>
-        <LocaleSwitcher />
+        <div
+          className="absolute
+                 xl:right-20
+                 2xl:right-16"
+        >
+          <LocaleSwitcher />
         </div>
       </div>
     </nav>

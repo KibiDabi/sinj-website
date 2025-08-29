@@ -79,7 +79,8 @@
   --sidebar-accent-foreground: oklch(0.21 0.006 285.885);
   --sidebar-border: oklch(0.92 0.004 286.32);
   --sidebar-ring: oklch(0.705 0.015 286.067);
-  --sidebar-width: 19rem;
+  --sidebar-width: 22rem;
+
 }
 
 .dark {
@@ -133,11 +134,41 @@
   border-radius: 0.5rem;
 }
 
-@media (min-width: 3000px) {
+.home-shell {
+  /* keep current desktop/TV behavior exactly as-is */
+  --navbar-height: 58px;
+}
+
+/* The row holding sidebar + content */
+.layout-row {
+  display: flex;
+  width: 100%;
+  /* sit under the navbar and fill the viewport below it */
+  margin-top: var(--navbar-height);
+  height: calc(100vh - var(--navbar-height));
+}
+
+/* Laptop screens (1280px - 1440px) */
+@media (max-width: 1440px) and (min-width: 1280px) {
   :root {
-    --sidebar-width: 28rem;
+    --sidebar-width: 22rem; /* adjust to your liking */
   }
 }
+
+/* Smaller laptops / tablets (1024px - 1279px) */
+@media (max-width: 1279px) and (min-width: 1024px) {
+  :root {
+    --sidebar-width: 18rem;
+  }
+}
+
+/* Mobile (below 1024px) — optional */
+@media (max-width: 1023px) {
+  :root {
+    --sidebar-width: 16rem;
+  }
+}
+
 
 @layer base {
   * {

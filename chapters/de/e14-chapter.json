@@ -30,16 +30,22 @@
       "text": "Ablauf der Operation"
     },
     {
-      "type": "paragraph",
-      "text": "1.\t1.\tRichtung: Crni Lug – Bosansko Grahovo"
+      "type": "list",
+      "ordered": true,
+      "items": [
+        "1.\tRichtung: Crni Lug – Bosansko Grahovo"
+      ]
     },
     {
       "type": "paragraph",
       "text": "Am ersten Tag durchbrach die 7. Gardebrigade die feindlichen Verteidigungen und errichtete eine neue Frontlinie für den weiteren Vormarsch. Der Feind verstärkte hier seine Positionen, wahrscheinlich durch Truppenabzüge von der Bihać-Front, womit eines der Ziele der Operation, die Schwächung der Einkesselung um Bihać, erfüllt wurde. Am zweiten Tag eroberte das 2. Bataillon der 9. Gardebrigade die wichtige Festung Nos und verband sich mit den Puma-Kräften, die unaufhaltsam Richtung Bosansko Grahovo vordrangen. Am dritten Tag wurde die 4. Gardebrigade eingesetzt, die den Vormarsch beschleunigte und Bosansko Grahovo einkesselte, welches am 28. Juli gemeinsam von der 7. und 4. Gardebrigade befreit wurde. Zudem eroberten die kroatischen Streitkräfte den strategischen Gebirgspass Derale (965 m), wodurch die feindliche Kommunikation zwischen Knin und Banja Luka gestört wurde."
     },
     {
-      "type": "paragraph",
-      "text": "2.\t2.\tRichtung: Berg Šator – Glamoč"
+      "type": "list",
+      "ordered": true,
+      "items": [
+        "2.\tRichtung: Berg Šator – Glamoč"
+      ]
     },
     {
       "type": "paragraph",

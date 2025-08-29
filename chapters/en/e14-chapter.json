@@ -30,16 +30,22 @@
       "text": "Course of the operation"
     },
     {
-      "type": "paragraph",
-      "text": "1.\tDirection: Crni Lug – Bosansko Grahovo"
+      "type": "list",
+      "ordered": true,
+      "items": [
+        "Direction: Crni Lug – Bosansko Grahovo"
+      ]
     },
     {
       "type": "paragraph",
       "text": "On the first day, the 7th Guards Brigade broke through enemy defenses and established a new frontline for further advance. The enemy reinforced their positions here, likely pulling forces from the Bihać front, fulfilling one of the operation’s goals to weaken the enemy encirclement around Bihać. On the second day, the 2nd Battalion of the 9th Guards Brigade captured the important stronghold Nos and linked up with the Puma forces pushing unstoppable towards Bosansko Grahovo. On the third day, the 4th Guards Brigade was introduced, accelerating advances and encircling Bosansko Grahovo, which was liberated by the 7th and 4th Guards Brigades together on July 28. Additionally, Croatian forces took control of the strategic mountain pass Derale (965 m), disrupting the enemy communication between Knin and Banja Luka."
     },
     {
-      "type": "paragraph",
-      "text": "2.\tDirection: Mount Šator – Glamoč"
+      "type": "list",
+      "ordered": true,
+      "items": [
+        "Direction: Mount Šator – Glamoč"
+      ]
     },
     {
       "type": "paragraph",

@@ -1,6 +1,6 @@
 import fs from "fs";
 import path from "path";
-import { chapterTitles } from '../lib/chapterTitles.js';
+import { chapterTitles } from "../lib/chapterTitles.js";
 
 const inputBaseDir = path.join(process.cwd(), "chapters-txt");
 const outputBaseDir = path.join(process.cwd(), "chapters");
@@ -59,8 +59,18 @@ function convertTextToJson(slug, title, text) {
       };
     }
 
-    // LIST (natuknice)
     const lines = trimmed.split("\n").map((l) => l.trim());
+
+    // Numbered list: lines starting with 1., 2., 3., etc.
+    if (lines.every((line) => /^\d+\.\s+/.test(line))) {
+      return {
+        type: "list",
+        ordered: true, // <-- add a flag to know it's numbered
+        items: lines.map((line) => line.replace(/^\d+\.\s+/, "")), // remove the number from text
+      };
+    }
+
+    // LIST (natuknice)
     if (lines.every((line) => /^(•|\-)\s+/.test(line))) {
       return {
         type: "list",
@@ -91,7 +101,6 @@ languages.forEach((lang) => {
   // očisti output folder prije pisanja
   if (fs.existsSync(outputDir)) clearFolder(outputDir);
   if (!fs.existsSync(outputDir)) fs.mkdirSync(outputDir, { recursive: true });
-
 
   fs.readdirSync(inputDir).forEach((file) => {
     if (file.endsWith(".txt")) {

@@ -33,8 +33,16 @@
       "text": "In der Stadt Zagreb und allen Gemeinden auf dem Gebiet der Republik Kroatien wurden Bereitschaftsmaßnahmen der Stufe I wie folgt eingeführt:"
     },
     {
-      "type": "paragraph",
-      "text": "1.\tAktualisierung aller Dokumente aus den Plänen für Notfälle und Bereitschaft;\r\\n2.\tEinführung von Dienstschichten in den Gemeindebehörden (Stadtbehörden);\r\\n3.\tVerstärkung aller Maßnahmen zum sozialen Selbstschutz, insbesondere Sicherheitsmaßnahmen und Schutz von geheimen Daten, physischer Schutz wichtiger Einrichtungen, insbesondere solcher, die für das Leben, die Sicherheit und die Verteidigung der Republik von Bedeutung sind;\r\\n4.\tAktivierung von bis zu 50 Prozent der Kriegsorganisation (Reservepersonal) der inneren Sicherheitsorgane;\r\\n5.\tSicherstellung eines ununterbrochenen Betriebs der Informationszentren;\r\\n6.\tEinführung ständiger Dienstschichten in kryptografischen Einrichtungen (Zentren und Stationen) und Sicherstellung des kryptografischen Schutzes von Informationen."
+      "type": "list",
+      "ordered": true,
+      "items": [
+        "Aktualisierung aller Dokumente aus den Plänen für Notfälle und Bereitschaft;",
+        "Einführung von Dienstschichten in den Gemeindebehörden (Stadtbehörden);",
+        "Verstärkung aller Maßnahmen zum sozialen Selbstschutz, insbesondere Sicherheitsmaßnahmen und Schutz von geheimen Daten, physischer Schutz wichtiger Einrichtungen, insbesondere solcher, die für das Leben, die Sicherheit und die Verteidigung der Republik von Bedeutung sind;",
+        "Aktivierung von bis zu 50 Prozent der Kriegsorganisation (Reservepersonal) der inneren Sicherheitsorgane;",
+        "Sicherstellung eines ununterbrochenen Betriebs der Informationszentren;",
+        "Einführung ständiger Dienstschichten in kryptografischen Einrichtungen (Zentren und Stationen) und Sicherstellung des kryptografischen Schutzes von Informationen."
+      ]
     },
     {
       "type": "paragraph",
@@ -42,7 +50,7 @@
     },
     {
       "type": "paragraph",
-      "text": "PRÄSIDENT\r\\nDR. FRANJO TUĐMAN"
+      "text": "PRÄSIDENT DR. FRANJO TUĐMAN"
     },
     {
       "type": "paragraph",

@@ -62,7 +62,7 @@ function convertTextToJson(slug, title, text) {
     const lines = trimmed.split("\n").map((l) => l.trim());
 
     // Numbered list: lines starting with 1., 2., 3., etc.
-    if (lines.every((line) => /^\d+\.\s+/.test(line))) {
+    if (lines.length > 1 && lines.every((line) => /^\d+\.\s+/.test(line))) {
       return {
         type: "list",
         ordered: true, // <-- add a flag to know it's numbered
@@ -71,7 +71,7 @@ function convertTextToJson(slug, title, text) {
     }
 
     // LIST (natuknice)
-    if (lines.every((line) => /^(•|\-)\s+/.test(line))) {
+    if (lines.length > 1 && lines.every((line) => /^(•|\-)\s+/.test(line))) {
       return {
         type: "list",
         items: lines.map((line) => line.replace(/^(•|\-)\s+/, "")),

@@ -33,10 +33,8 @@
       "text": "Dinamika Maestrala"
     },
     {
-      "type": "list",
-      "items": [
-        "Smjer Glamoč – Šipovo – Jajce"
-      ]
+      "type": "paragraph",
+      "text": "•\tSmjer Glamoč – Šipovo – Jajce"
     },
     {
       "type": "paragraph",
@@ -47,10 +45,8 @@
       "text": "U nastavku operacije cilj je oslobađanje Šipova što su snage 1. gbr i 60. gdb HVO-a i pripadnici IDS-a HV-a ostvarile petog dana operacije, a na ovom smjeru napada u borbu je uvedena i 81. gb HV-a. Uslijedilo je oslobađanje naselja Trnovo, Majdan, Čitluk, Gornji Volar, Ljuša, Kasumi, Gornji Baraći te Gornja i Donja Pecka. Šestog dana operacije oslobođeno je i Jajce čime su hrvatske snage ostvarile sve postavljene ciljeve na ovom smjeru napada."
     },
     {
-      "type": "list",
-      "items": [
-        "Smjer Bosansko Grahovo – Drvar"
-      ]
+      "type": "paragraph",
+      "text": "•\tSmjer Bosansko Grahovo – Drvar"
     },
     {
       "type": "paragraph",
@@ -62,7 +58,7 @@
     },
     {
       "type": "paragraph",
-      "text": "Europa i međunarodna zajednica prate razvoj događaja u Maestralu"
+      "text": "Europa i međunarodna zajednica prate razvoj događaja u Maestralu."
     },
     {
       "type": "paragraph",

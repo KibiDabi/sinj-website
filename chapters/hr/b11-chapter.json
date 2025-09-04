@@ -3,11 +3,8 @@
   "title": " Plan Z4",
   "content": [
     {
-      "type": "list",
-      "ordered": true,
-      "items": [
-        "ožujka 1995. Plan Z-4 – pobunjeni Srbi odbili život u Hrvatskoj i planirali okupirane teritorije pripojiti Srbiji."
-      ]
+      "type": "paragraph",
+      "text": "6. ožujka 1995. Plan Z-4 – pobunjeni Srbi odbili život u Hrvatskoj i planirali okupirane teritorije pripojiti Srbiji."
     },
     {
       "type": "paragraph",
@@ -42,11 +39,8 @@
       "text": "Važno je istaknuti da je u tih 11 ‘srpskih općina’ prije predlaganja plana Z-4 izvršen genocid nad Hrvatima, da su svi Hrvati tamo ubijeni, protjerani, odvedeni u logore, žene silovane, crkve im porušene, a njihovi domovi uništeni i opljačkani do temelja."
     },
     {
-      "type": "list",
-      "ordered": true,
-      "items": [
-        "godine na saborskom zasjedanju Hrvatskog sabora donesena je odluka da je plan Z-4 neprihvatljiv za Hrvatsku. Iz Plana Z-4 proizlazilo je da bi tzv. Srpska Krajina bila gotovo potpuno samostalan entitet u sklopu Republike Hrvatske, ali bez međunarodnog subjektiviteta, odnosno “država u državi”."
-      ]
+      "type": "paragraph",
+      "text": "1995. godine na saborskom zasjedanju Hrvatskog sabora donesena je odluka da je plan Z-4 neprihvatljiv za Hrvatsku. Iz Plana Z-4 proizlazilo je da bi tzv. Srpska Krajina bila gotovo potpuno samostalan entitet u sklopu Republike Hrvatske, ali bez međunarodnog subjektiviteta, odnosno “država u državi”."
     },
     {
       "type": "heading",

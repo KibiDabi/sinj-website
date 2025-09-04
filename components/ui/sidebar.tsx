@@ -341,7 +341,7 @@ function SidebarHeader({ className, ...props }: React.ComponentProps<"div">) {
     <div
       data-slot="sidebar-header"
       data-sidebar="header"
-      className={cn("flex flex-col gap-2 p-2 2xl:p-4", className)}
+      className={cn("flex flex-col gap-2 p-2 2xl:mt-3", className)}
       {...props}
     />
   );
@@ -392,7 +392,7 @@ function SidebarGroup({ className, ...props }: React.ComponentProps<"div">) {
       data-slot="sidebar-group"
       data-sidebar="group"
       className={cn(
-        "relative flex w-full min-w-0 flex-col p-2 2xl:p-6",
+        "relative flex w-full min-w-0 flex-col p-2",
         className
       )}
       {...props}
@@ -493,7 +493,7 @@ const sidebarMenuButtonVariants = cva(
         default:
           "h-10 md:h-12 xl:h-16 2xl:h-24 text-sm md:text-base xl:text-xl 2xl:text-5xl leading-snug",
         sm: "h-8 md:h-9 text-xs md:text-sm leading-snug",
-        lg: "h-12 md:h-10 xl:h-18 2xl:h-14 text-base md:text-lg xl:text-2xl 2xl:text-5xl leading-snug group-data-[collapsible=icon]:p-0!",
+        lg: "h-12 md:h-10 xl:h-18 2xl:h-14 text-base md:text-lg xl:text-2xl 2xl:text-lg leading-snug group-data-[collapsible=icon]:p-0!",
       },
     },
     defaultVariants: {

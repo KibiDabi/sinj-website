@@ -3,11 +3,8 @@
   "title": "Plan Z4",
   "content": [
     {
-      "type": "list",
-      "ordered": true,
-      "items": [
-        "März 1995. Plan Z-4 – die rebellischen Serben lehnten das Leben in Kroatien ab und planten, die besetzten Gebiete an Serbien anzuschließen."
-      ]
+      "type": "paragraph",
+      "text": "6. März 1995. Plan Z-4 – die rebellischen Serben lehnten das Leben in Kroatien ab und planten, die besetzten Gebiete an Serbien anzuschließen."
     },
     {
       "type": "paragraph",

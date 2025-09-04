@@ -21,7 +21,7 @@ export function AppSidebar({locale, ...props }: React.ComponentProps<typeof Side
       <SidebarHeader>
         <SidebarMenu>
           <SidebarMenuItem>
-            <SidebarMenuButton size='lg' asChild className="text-base sm:text-lg md:text-xl 2xl:text-3xl">
+            <SidebarMenuButton size='lg' asChild className="text-base sm:text-lg md:text-xl 2xl:text-xl">
               <a href="#">
                 <SidebarReset />
               </a>

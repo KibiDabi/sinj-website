@@ -34,7 +34,7 @@ The website is optimized for presentation on **large interactive displays (65”
    git clone https://github.com/your-username/your-repo-name.git
    cd your-repo-name
 
-##  Install dependecies
+##  Install dependencies
 
 2. ```bash
    npm install

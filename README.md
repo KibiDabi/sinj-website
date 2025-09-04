@@ -36,11 +36,15 @@ The website is optimized for presentation on **large interactive displays (65”
 
 ##  Install dependecies
 
-2. npm install
+2. ```bash
+   npm install
+   ```
 
 ##  Run the development server
 
-3. npm run dev
+3. ```bash
+   npm run dev
+   ```
 
 The app will be available at http://localhost:3000
 
